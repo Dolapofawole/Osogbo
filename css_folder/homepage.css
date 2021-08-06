@@ -1,0 +1,102 @@
+body{
+    margin: 2px;
+}
+.ataoja{
+    background-color:  rgb(239, 242, 245);
+    height: 300px;
+    margin-top: 100px;
+    overflow:scroll;
+    
+}
+.ata{
+    float: left;
+    width: 25%;
+    margin-left: 20%;
+    margin-top: 40px;
+    text-align: justify;
+    
+}
+.oja{
+    float: left;
+    width: 25%;
+    margin-top: 30px;
+}
+.oja img{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+.ata p{
+    font-size: 20px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.ata a{
+    color: darkorange;
+}
+.clear{
+    clear: left;
+}
+.image{
+    height: 400px;
+    background-image: url('../images/cityosogbo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+marquee{
+    font-size: 50px;
+    color: white;
+
+}
+.image p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: white;
+    background-color: black;}
+
+@media(max-width: 800PX){
+.ataoja{
+                height:auto;
+                width: 100%;
+}
+.ata{float: none;
+    width: 100%;
+    margin-left: 0%;
+    padding: 20px;
+    
+}
+.oja{float: none;
+    width: 100%;
+    margin-left: 0%;
+    
+}
+.image{
+    
+    height: 200px;
+    background-image: url('../images/cityosogbo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ata p{
+    text-align: justify;
+}
+.image p{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 0;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+.oja img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+}

@@ -1,0 +1,175 @@
+body{
+    background-image: url('../images/os10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+#oso{
+    padding: 10px;
+    background-color: rgb(239, 242, 245);
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+#oso ol{
+    
+    font-size: 20px;
+    text-align: justify;
+    color: teal;
+}
+#oso p{
+    text-indent: 50px;
+    color: teal;
+    font-size: 20px;
+    text-align: justify;
+}
+.navone a{
+    color: white;
+
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+    text-align: center;
+    
+}
+.festiv{
+    float: left;
+    width: 60%;
+
+
+}
+*{box-sizing: border-box;
+
+}
+.osun{
+    width: 40%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.osun img{
+    height: 250px;
+    width: 250px;
+    padding-bottom: 15px;
+    
+}
+.pix{
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 20px;
+    
+}
+
+.fest{
+    font-size: 20px;
+    text-align: justify;
+    color: teal;;
+    text-indent: 50px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.downbase img{
+    width: 300px;
+    height: 194px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px teal;
+    margin: auto;
+
+}
+.down{
+    text-align: center;
+    clear: left;
+}
+h2{
+
+    text-align: center;
+
+}
+.downbase{   
+    display: inline-block;
+    
+}
+img{
+    background-color: black;
+}
+
+
+@media (max-width:800px){
+    #oso{
+        padding: 40px;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+    
+        
+    }
+    #oso ol{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+    
+    .clearfix::after{
+        content: "";
+        clear: both;
+        display:inline;
+        overflow: auto;
+        
+    }
+    .festiv{
+        float:none;
+        width:100%;
+    
+    
+    }
+       
+        .osun{
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        
+    }
+    .osun img{
+        height: 250px;
+        width: 250px;
+        padding-bottom: 10px;
+        display:block;
+        margin: auto;
+        
+    }
+    .pix{
+        margin-right:0;
+        margin-left:0;
+        padding:0;   
+    }
+     .downbase img{
+        width: 150px;
+        height: 100px;
+        border-radius: 20px;
+        margin:auto;
+    
+            
+    }
+    h2{
+        text-align: center;
+        font-size: 10px;
+    
+    
+    }
+    img{
+        background-color: black;
+    }
+    .down{
+        text-align: center;
+        
+        
+    }
+}
