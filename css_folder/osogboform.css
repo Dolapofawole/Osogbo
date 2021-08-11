@@ -51,7 +51,7 @@ input{
     
 }
 .noo input{
-    margin-bottom: 100px;
+    margin-bottom: 40pxpx;
 }
 .testify{
     font-size: 20px;
@@ -59,7 +59,7 @@ input{
     clear: left;
     text-align: center;
     padding: 50px;
-    margin-top: 300px;
+    margin-top: 50px;
 }
 @media (max-width:800px) {
     .float{
