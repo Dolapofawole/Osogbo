@@ -4,9 +4,7 @@ body{
 .ataoja{
     background-color:  rgb(239, 242, 245);
     height: 300px;
-    margin-top: 100px;
-    overflow:scroll;
-    
+    margin-top: 200px;    
 }
 .ata{
     float: left;
@@ -21,24 +19,29 @@ body{
     width: 25%;
     margin-top: 30px;
 }
+
 .oja img{
     height: 250px;
     width: 250px;
     margin-left: 100px;
 }
+
 .ata p{
     font-size: 20px;
     
 }
+
 *{
     box-sizing: border-box;
 }
 .ata a{
     color: darkorange;
 }
+
 .clear{
     clear: left;
 }
+
 .image{
     height: 400px;
     background-image: url('../images/cityosogbo.jpg');
@@ -55,23 +58,28 @@ marquee{
     font-size: 40px;
     margin-top: 0;
     color: white;
-    background-color: black;}
+    background-color: black;
+}
 
 @media(max-width: 800PX){
-.ataoja{
+.ataoja{        margin-top:0;
                 height:auto;
                 width: 100%;
+                
+            
 }
 .ata{float: none;
     width: 100%;
     margin-left: 0%;
-    padding: 20px;
+    padding-left:20px ;
+    padding-right:20px ;
+    height: auto;
     
 }
 .oja{float: none;
     width: 100%;
     margin-left: 0%;
-    
+    margin-bottom: 200px;
 }
 .image{
     
@@ -83,6 +91,7 @@ marquee{
 .ata p{
     text-align: justify;
 }
+
 .image p{
     text-align: center;
     font-size: 10px;
@@ -91,6 +100,7 @@ marquee{
     background-color: black;
     width: 100%;
 }
+
 .oja img{
     height: 250px;
     width: 250px;
@@ -99,4 +109,23 @@ marquee{
     padding-bottom: 20px;
 
 }
+}
+
+@media (max-width: 1024px)
+{
+    .ata{
+    height: auto;
+    }
+    .ataoja{
+        height:400px;
+        background-color:  rgb(239, 242, 245);
+        margin-bottom:80px ;
+
+    }
+    .oja img{
+        height: 250px;
+        width: 250px;
+        margin-left: 100px;
+        margin-top: 60px;
+    }
 }

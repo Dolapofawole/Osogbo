@@ -138,6 +138,7 @@ img{
 
          .clear{
              clear: left;
+             height: auto;
          }
 
          @media (max-width:800px){
@@ -242,3 +243,13 @@ img{
                 border: none;
             }
         }
+        @media(max-width: 1030PX){
+            .clear{
+                height: auto;
+                width: 100%;
+                background-color:rgba(16, 59, 61, 0.678);
+                
+                
+            }
+                
+            }
