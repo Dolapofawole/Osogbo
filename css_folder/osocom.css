@@ -18,13 +18,14 @@ body{
 #oso ol{
     
     font-size: 20px;
-    text-align: justify;
     color: teal;
     padding-left: 18px;
     padding-right: 18px;
     list-style: circle;
+    text-align: left;
 }
-li{padding-left: 18px;
+li{
+    padding-left: 18px;
     padding-right: 18px;
 
 }
@@ -32,7 +33,8 @@ li{padding-left: 18px;
     text-indent: 50px;
     color: teal;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
+
 }
 .navone a{
     color: white;
@@ -76,7 +78,6 @@ li{padding-left: 18px;
 
 .fest{
     font-size: 20px;
-    text-align: justify;
     color: teal;;
     text-indent: 50px;
     padding: 20px;
@@ -126,7 +127,7 @@ img{
     #oso ol{
         margin: 0;
         padding: 0;
-        text-align: justify;
+        
 
     }
     
