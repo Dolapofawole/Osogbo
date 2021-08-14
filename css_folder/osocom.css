@@ -1,9 +1,4 @@
 body{
-    background-image: url('../images/os10.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5px;
-       
 }
 #oso{
     padding-left: 150px;
@@ -78,7 +73,7 @@ li{
 
 .fest{
     font-size: 20px;
-    color: teal;;
+    color: white;
     text-indent: 50px;
     padding: 20px;
 }
@@ -106,9 +101,7 @@ h2{
     display: inline-block;
     
 }
-img{
-    background-color: black;
-}
+
 
 
 @media (max-width:800px){

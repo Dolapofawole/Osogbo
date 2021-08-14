@@ -133,13 +133,14 @@ img{
          }
          .input{
             display: inline-block;
-            margin-left: 100px;
+
          }
 
          .clear{
              clear: left;
              height: auto;
          }
+        
 
          @media (max-width:800px){
             .navbar a{float: none;
